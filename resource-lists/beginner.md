@@ -2,7 +2,12 @@
 <meta charset="utf-8"/>
 <meta name="description" content="Advice and Resources for beginners"/>
 <meta name="author" content="Edward Minnix III"/>
-<link rel="stylesheet" type="text/css" href="./beginner.css"/>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/slate/bootstrap.min.css"/>
+<style>
+body {
+	width: 50%;
+}
+</style>
 </head>
 <body>
 # Advice and Resources
