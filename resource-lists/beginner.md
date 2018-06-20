@@ -1,3 +1,10 @@
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="Advice and Resources for beginners"/>
+<meta name="author" content="Edward Minnix III"/>
+<link rel="stylesheet" type="text/css" href="./beginner.css"/>
+</head>
+<body>
 # Advice and Resources
 
 ## Text Editors
@@ -6,16 +13,20 @@
 
 One of the simultaneously most and least important choices you can
 make is what text editor/IDE you use. There are three main sections of
-text editors (that are widely used): old school (Vim and Emacs),
-modern text editors ([Sublime Text], [Atom], [VS Code]), and IDEs
-([Eclipse], [Visual Studio], [PyCharm], ...). While it is useful to
-know how to use Vim and/or Emacs, they both use keybindings which most
-people aren't used to, so they wouldn't be a good starting point. I
-would suggest using a modern text editor like [VS Code] or [Sublime
-Text] for scripting languages (Python, Javascript, Ruby, shell) and
-sticking with an IDE like [Eclipse] or [IntelliJ]. (For IDEs I'd
-suggest JetBrains IDEs. They are really great at what they do, and
-they have a very generous student discount).
+text editors (that are widely used): 
+
+1. Old school (Vim and Emacs),
+2. Modern text editors ([Sublime Text], [Atom], [VS Code])
+3. IDEs ([Eclipse], [Visual Studio], [PyCharm], ...). 
+
+While it is useful to know how to use Vim and/or Emacs, they both use
+keybindings which most people aren't used to, so they wouldn't be a
+good starting point. I would suggest using a modern text editor like
+[VS Code] or [Sublime Text] for scripting languages (Python,
+Javascript, Ruby, shell) and sticking with an IDE like [Eclipse] or
+[IntelliJ]. (For IDEs I'd suggest JetBrains IDEs. They are really
+great at what they do, and they have a very generous student
+discount).
 
 
 ## Installing a VM (virtual machine)
@@ -74,3 +85,5 @@ For the security
 
 <!-- Other links -->
 [Virtualbox]: https://www.virtualbox.org/wiki/Downloads
+
+</body>
