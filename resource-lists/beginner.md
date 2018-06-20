@@ -6,6 +6,7 @@
 <style>
 body {
 	width: 50%;
+	padding: 5% 10%;
 }
 </style>
 </head>
