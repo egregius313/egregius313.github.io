@@ -23,3 +23,15 @@ h3 + div > ul {
 	column-count: 2;
 	column-gap: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+	h2 + div > ul {
+		column-count: 2;
+		column-gap: 20px;
+	}
+
+	h3 + div > ul {
+		column-count: 2;
+		column-gap: 20px;
+	}
+}
