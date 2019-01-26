@@ -1,0 +1,25 @@
+body {
+	font-family: Baskerville;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+ul:parent {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+
+h2 + div > ul {
+	column-count: 2;
+	column-gap: 20px;
+}
+
+h3 + div > ul {
+	column-count: 2;
+	column-gap: 20px;
+}
