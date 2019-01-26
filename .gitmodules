@@ -1,3 +1,3 @@
 [submodule "emacs/packages/docopt-snippets"]
 	path = emacs/packages/docopt-snippets
-	url = git@github.com:egregius313/docopt-snippets
+	url = https://github.com/egregius313/docopt-snippets
