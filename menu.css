@@ -26,12 +26,10 @@ h3 + div > ul {
 
 @media only screen and (max-width: 768px) {
 	h2 + div > ul {
-		column-count: 2;
-		column-gap: 20px;
+		column-count: 1;
 	}
 
 	h3 + div > ul {
-		column-count: 2;
-		column-gap: 20px;
+		column-count: 1;
 	}
 }
