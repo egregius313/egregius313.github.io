@@ -1,0 +1,53 @@
+body {
+	font-family: monospace;
+	background-color: black;
+	color: green;
+}
+
+a {
+	color: green;
+	font-weight: bold;
+}
+
+#content {
+	/* text-align: center; */
+
+	width: 100ch;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sections {
+	display: grid;
+}
+
+
+.header {
+	display: grid;
+	grid-template-columns: 5ch auto 5ch;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 3ch auto 3ch;
+}
+
+.manual-name {
+	text-align: center;
+}
+
+
+.tabbed-content {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 5ch 1fr;
+	grid-template-areas: "tab tabbed-rest";
+}
+
+.tab {
+	grid-area: tab;
+}
+
+.tabbed-rest {
+	grid-area: tabbed-rest;
+}
