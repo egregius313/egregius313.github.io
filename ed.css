@@ -10,17 +10,10 @@ a {
 }
 
 #content {
-	/* text-align: center; */
-
 	width: 100ch;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-#sections {
-	display: grid;
-}
-
 
 .header {
 	display: grid;
@@ -37,17 +30,8 @@ a {
 }
 
 
-.tabbed-content {
-	display: grid;
+section p {
+	padding-left: 5ch;
+	box-sizing: border-box;
 	width: 100%;
-	grid-template-columns: 5ch 1fr;
-	grid-template-areas: "tab tabbed-rest";
-}
-
-.tab {
-	grid-area: tab;
-}
-
-.tabbed-rest {
-	grid-area: tabbed-rest;
 }
