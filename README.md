@@ -2,7 +2,6 @@
 
 Personal website
 
-
 ## Pieces
 
 | Route | Purpose |
