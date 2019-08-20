@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/egregius313
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ed.minni.xyz
+  * I am egregius313 (https://keybase.io/egregius313) on keybase.
+  * I have a public key ASByphsnE9Z4lZsQjt0ohR6PN9z9GhDTdcb2NtWrfztcIAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208bff36c57a02c02672bfcaffacb69e5630de64b57a9e0c28d6c043c4324bdb4a0a",
+      "host": "keybase.io",
+      "kid": "012072a61b2713d678959b108edd28851e8f37dcfd1a10d375c6f636d5ab7f3b5c200a",
+      "uid": "04f778c78f1b8cb880fb2f0c516af019",
+      "username": "egregius313"
+    },
+    "merkle_root": {
+      "ctime": 1566336849,
+      "hash": "1bd050f79a11516f948763ca427c0614531649dc388b10be4f5630fe6e6f9b5122fa1355251260918260bfdae3e3e076c39bad834d3dc6b204e008b5b3e373f7",
+      "hash_meta": "12b23771aa20af81e363020b972130a2f84c84edea0551bb2f06aa2a79e74f8a",
+      "seqno": 6060297
+    },
+    "service": {
+      "entropy": "lO9yrDxj/fJYfNub97GwmJ2T",
+      "hostname": "ed.minni.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1566336895,
+  "expire_in": 504576000,
+  "prev": "870be01839db4af35fb99ee1fd753fccab53c5ca7ca889a67ebfca244429c2d5",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcqYbJxPWeJWbEI7dKIUejzfc/RoQ03XG9jbVq387XCAKp3BheWxvYWTESpcCFMQghwvgGDnbSvNfuZ7h/XU/zKtTxcp8qImmfr/KJEQpwtXEICl07EgAGAOnVixpXguFJTC9dkr7Gd40kXVdmc6dmuHrAgHCo3NpZ8RAGSt3FvRC1PIOUc4nx9CtJ8pk5XdzLwpxp2Iu4dIoIlscEUPPyHOLpFgsjGqR8vem5a1DsE12wSLTUjA5dCaKBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBGlkMHZgpB8KDbAs+DGcNclnKfO7b3cXuikHLeuVOZQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/egregius313
+
+==================================================================
