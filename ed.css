@@ -15,14 +15,11 @@ a {
 	margin-right: auto;
 }
 
-.header {
-	display: grid;
-	grid-template-columns: 5ch auto 5ch;
-}
 
-.footer {
-	display: grid;
-	grid-template-columns: 3ch auto 3ch;
+.header-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .manual-name {
@@ -34,4 +31,11 @@ section p {
 	padding-left: 5ch;
 	box-sizing: border-box;
 	width: 100%;
+}
+
+button {
+	border: none;
+	background-color: inherit;
+	font-family: monospace;
+	color: inherit;
 }
