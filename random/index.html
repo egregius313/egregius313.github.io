@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+	<script>
+	  const links = [
+		  "https://nullprogram.com/blog/2019/03/22/",
+		  "https://nullprogram.com/blog/2017/01/30/",
+	  ];
+
+	  function classify(url) {
+		  if (url.match(/(youtube\.com)|(youtu\.be)/)) {
+			  return 'video';
+		  } else if (url.match(/\.(jpe?g|png)$/)) {
+			  return 'image';
+		  } else {
+			  return 'blog';
+		  }
+	  }
+
+	  const random = document.getElementById('random');	  
+	  const choice = links[Math.floor(Math.random() * links.length)]
+	  
+	  let randomElement;
+	  switch (classify(choice)) {
+	  case 'video':
+		  break;
+	  case 'image':
+		  break;
+	  case 'blog':
+		  randomElement = document.createElement('iframe');
+		  randomElement.src = choice;
+		  break;
+	  }
+
+	  random.appendChild(randomElement);
+	</script>	
+	<p>Welcome to the randomness.</p>
+
+	<div id="random">
+	</div>
+  </body>
+</html>
