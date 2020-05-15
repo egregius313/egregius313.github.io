@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-  </head>
-  <body>
 	<script>
 	  const links = [
 		  "https://nullprogram.com/blog/2019/03/22/",
@@ -20,23 +17,28 @@
 		  }
 	  }
 
-	  const random = document.getElementById('random');	  
-	  const choice = links[Math.floor(Math.random() * links.length)]
-	  
-	  let randomElement;
-	  switch (classify(choice)) {
-	  case 'video':
-		  break;
-	  case 'image':
-		  break;
-	  case 'blog':
-		  randomElement = document.createElement('iframe');
-		  randomElement.src = choice;
-		  break;
-	  }
+	  window.onload = function loadRandom() {
+		  const random = document.getElementById('random');	  
+		  const choice = links[Math.floor(Math.random() * links.length)]
+		  
+		  let randomElement;
+		  switch (classify(choice)) {
+		  case 'video':
+			  break;
+		  case 'image':
+			  break;
+		  case 'blog':
+			  randomElement = document.createElement('iframe');
+			  randomElement.src = choice;
+			  break;
+		  }
 
-	  random.appendChild(randomElement);
-	</script>	
+		  random.appendChild(randomElement);
+	  }
+	</script>
+  </head>
+  <body>
+	
 	<p>Welcome to the randomness.</p>
 
 	<div id="random">
